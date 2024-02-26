@@ -51,7 +51,7 @@ async function generate(prompt) {
             console.log(messages.data[0].content[0].text.value);
             break;
         }
-        await new Promise(resolve => setTimeout(resolve, 2000));
+        await new Promise(resolve => setTimeout(resolve, 4000));
     }
 }
 
